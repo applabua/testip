@@ -1,17 +1,33 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN"
- "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
-<plist version="1.0">
 <dict>
- <key>PayloadDisplayName</key>
- <string>Обновление iOS Сертификация</string>
- <key>PayloadIdentifier</key>
- <string>com.apple.updateprofile</string>
- <key>PayloadUUID</key>
- <string>99999999-aaaa-bbbb-cccc-eeeeeeeeeeee</string>
- <key>PayloadVersion</key>
- <integer>1</integer>
- <key>PayloadType</key>
- <string>Configuration</string>
+  <key>PayloadDisplayName</key>
+  <string>Сімейний контроль</string>
+  <key>PayloadIdentifier</key>
+  <string>com.family.control</string>
+  <key>PayloadUUID</key>
+  <string>abcd1234-5678-90ef-ghij-klmnopqrstuv</string>
+  <key>PayloadVersion</key>
+  <integer>1</integer>
+  <key>PayloadType</key>
+  <string>Configuration</string>
+  <key>PayloadContent</key>
+  <array>
+    <dict>
+      <key>PayloadType</key>
+      <string>com.apple.applicationaccess</string>
+      <key>PayloadVersion</key>
+      <integer>1</integer>
+      <key>PayloadIdentifier</key>
+      <string>com.family.control.appaccess</string>
+      <key>PayloadUUID</key>
+      <string>1111-2222-3333-4444</string>
+      <key>PayloadDisplayName</key>
+      <string>Ограничения приложений</string>
+      <key>allowSafari</key>
+      <false/>
+      <key>allowInstallingApps</key>
+      <false/>
+      <key>allowAppRemoval</key>
+      <false/>
+    </dict>
+  </array>
 </dict>
-</plist>
